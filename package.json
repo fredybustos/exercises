@@ -1,0 +1,19 @@
+{
+  "name": "ejercicios",
+  "version": "1.0.0",
+  "description": "practicas frontend",
+  "main": "index.js",
+  "scripts": {
+    "styl": "stylus -u nib -w ./scrollSnap/style.styl -o ./scrollSnap/style.css -c & stylus -u nib -w ./scrollSnap2/style.styl -o ./scrollSnap2/style.css "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fredybustos"
+  },
+  "author": "fredy bustos",
+  "license": "MIT",
+  "devDependencies": {
+    "nib": "^1.1.2",
+    "stylus": "^0.54.5"
+  }
+}

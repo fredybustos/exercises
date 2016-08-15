@@ -1,0 +1,32 @@
+@import 'nib'
+
+h1
+	text-align center
+
+.scrollSnap
+	&-container
+		max-width 700px
+		margin 0 auto
+	&-content
+		overflow auto
+		white-space nowrap
+		scroll-snap-points-x repeat(100%)
+		scroll-snap-type mandatory
+	&-content
+		&-image
+			display inline-block
+			margin 0
+	&-image
+		width 100%
+	&-up
+		overflow auto
+		height 260px
+		scroll-snap-points-y repeat(100%)
+		scroll-snap-type mandatory
+		margin 0 auto
+		margin-top 2em
+		
+@media (min-width: 667px)
+	.scrollSnap
+		&-up
+			height 450px
